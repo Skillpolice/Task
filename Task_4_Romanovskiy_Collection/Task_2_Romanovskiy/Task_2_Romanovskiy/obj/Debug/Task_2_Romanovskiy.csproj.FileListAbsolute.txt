@@ -1,0 +1,7 @@
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\bin\Debug\Task_2_Romanovskiy.exe.config
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\bin\Debug\Task_2_Romanovskiy.exe
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\bin\Debug\Task_2_Romanovskiy.pdb
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\obj\Debug\Task_2_Romanovskiy.csprojAssemblyReference.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\obj\Debug\Task_2_Romanovskiy.csproj.CoreCompileInputs.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\obj\Debug\Task_2_Romanovskiy.exe
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_Romanovskiy\obj\Debug\Task_2_Romanovskiy.pdb

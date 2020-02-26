@@ -1,0 +1,114 @@
+﻿@model IEnumerable<Exzam_Denis_R.Models.Post>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="jumbotron col-md-8">
+        <h2>Добро пожаловать </h2>
+        @{
+            if (!HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                <p class="lead">Войдите или зарегистрируйтесь и можете добавлять обьявления.</p>
+            }
+            else
+            {
+                <p class="lead">Вы можете добавлять обьявления.</p>
+            }
+        }
+
+    </div>
+    <div id="update" class="col-md-4">
+        <ul class="nav nav-pills">
+
+            @if (!HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                <li>@Ajax.ActionLink("Вход", "Login", "Account", new AjaxOptions { UpdateTargetId = "update" })</li>
+            }
+            <li>@Ajax.ActionLink("Регистрация", "Register", "Account", new AjaxOptions { UpdateTargetId = "update" })</li>
+            <li>@Ajax.ActionLink("Пользователи", "AllUsers", new AjaxOptions { UpdateTargetId = "AllUser", LoadingElementId = "loading", LoadingElementDuration = 1000 })</li>
+            @if (HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                <li>@Ajax.ActionLink("Написать в чат", "AddPost", new { id=2}, new AjaxOptions { UpdateTargetId = "update" }, new { @class = "btn btn-primary btn-large" })</li>
+            }
+        </ul>
+    </div>
+</div>
+
+<div id="loading" style="display:none; color:Red; font-weight:bold;">
+    <p>Идет загрузка...</p>
+</div>
+<div id="AllUser">
+
+</div>
+
+<div class="row">
+    <br />
+    <h2>Темы на форуме</h2>
+    <br />
+    <div class="row col-md-12">
+        @if (HttpContext.Current.User.Identity.IsAuthenticated)
+        {
+            <ul class="nav nav-pills">
+                <li class="active">@Ajax.ActionLink("Котики ", "PostThemes", new { id = 1 }, new AjaxOptions { UpdateTargetId = "forum" }, new { @class = "btn btn-primary" })</li>
+                <li>@Ajax.ActionLink("Собачки ", "PostThemes", new { id = 3 }, new AjaxOptions { UpdateTargetId = "forum" }, new { @class = "btn btn-primary btn-large" })</li>
+                <li>@Ajax.ActionLink("Муровьи ", "PostThemes", new { id = 4 }, new AjaxOptions { UpdateTargetId = "forum" }, new { @class = "btn btn-primary btn-large" })</li>
+            </ul>
+         }
+    </div>
+</div>
+
+<div class="row">
+    <div id="forum">
+    
+    </div>
+</div>
+
+
+<div class="row">
+    <div id="posts">
+        <p></p>
+        <p><h2>Чат для всех пользователей.</h2></p>
+        <table class="table col-md-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Имя</th>
+                    <th>Сообщение</th>
+                </tr>
+            </thead>
+        </table>
+        @foreach (var post in Model)
+        {
+            <div class="container">
+                <div class="col-md-4">
+                    <h2>@post.AppUser.UserName</h2>
+                    <p>@post.Time</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="font-size:x-large">@post.Text</p>
+                </div>
+                @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    @Html.ActionLink("Удалить", "Delete", new { id = post.Id }, new { @class = "btn btn-primary btn-large" })
+                }
+            </div>
+        }
+    </div>
+</div>
+
+<div class="row">
+    <div id="add">
+        <p>
+
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+

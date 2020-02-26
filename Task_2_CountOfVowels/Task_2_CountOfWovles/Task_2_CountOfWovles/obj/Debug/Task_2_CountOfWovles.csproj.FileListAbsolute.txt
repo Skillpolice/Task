@@ -1,0 +1,12 @@
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\bin\Debug\Task_2_CountOfWovles.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\bin\Debug\Task_2_CountOfWovles.pdb
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.csprojAssemblyReference.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.csproj.CoreCompileInputs.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\bin\Debug\Task_2_CountOfWovles.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\bin\Debug\Task_2_CountOfWovles.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.csprojAssemblyReference.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.csproj.CoreCompileInputs.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_2_CountOfVowels\Task_2_CountOfWovles\Task_2_CountOfWovles\obj\Debug\Task_2_CountOfWovles.pdb

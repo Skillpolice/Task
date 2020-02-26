@@ -1,0 +1,7 @@
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\bin\Debug\Task_3_Romanovskiy1.exe.config
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\bin\Debug\Task_3_Romanovskiy1.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\bin\Debug\Task_3_Romanovskiy1.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\obj\Debug\Task_3_Romanovskiy1.csprojAssemblyReference.cache
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\obj\Debug\Task_3_Romanovskiy1.csproj.CoreCompileInputs.cache
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\obj\Debug\Task_3_Romanovskiy1.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_3_Romanovskiy\Task_3_Romanovskiy1\Task_3_Romanovskiy1\obj\Debug\Task_3_Romanovskiy1.pdb

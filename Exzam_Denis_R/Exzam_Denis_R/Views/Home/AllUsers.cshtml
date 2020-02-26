@@ -1,0 +1,60 @@
+﻿@using Exzam_Denis_R.Models
+@using Microsoft.AspNet.Identity.Owin;
+@using Microsoft.AspNet.Identity;
+@model IEnumerable<AppUser>
+@{
+    ViewBag.Title = "AllUsers";
+    AppUserManager userManager = HttpContext.Current.GetOwinContext().GetUserManager<AppUserManager>();
+}
+
+<div class="row col-md-8">
+    <div class="jumbotron row">
+        <h2>Зарегистрированные пользователи</h2>
+    </div>
+</div>
+
+<div id="users" >
+    <div class="row col-md-8">
+        <div class="col-md-2">
+            <p style="font-size:x-large">Имя</p>
+        </div>
+        <div class="col-md-3">
+            <p style="font-size:x-large">E-mail</p>
+        </div>
+        <div class="col-md-3">
+            <p style="font-size:x-large">Логин</p>
+        </div>
+        <div class="col-md-3">
+            <p style="font-size:x-large">Роли</p>
+        </div>
+    </div>
+
+
+    @*выводим каждого пользователя*@
+    @foreach (var user in Model)
+    {
+        <div class="row col-md-8">
+            <div class="col-md-2">
+                <p style="font-size:x-large">@user.UserName</p>
+            </div>
+            <div class="col-md-3">
+                <p style="font-size:x-large">@user.Email</p>
+            </div>
+            <div class="col-md-3">
+                <p style="font-size:x-large">@user.Login</p>
+            </div>
+
+            <div class="col-md-3">
+                @*Добавляем роль и выводим в список*@
+                @foreach (var role in userManager.GetRoles(user.Id))
+                {
+                    <p style="font-size:x-large">@role</p>
+                }
+            </div>
+        </div>
+    }
+
+
+
+
+</div>

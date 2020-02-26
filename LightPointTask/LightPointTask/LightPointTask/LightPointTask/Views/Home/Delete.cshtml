@@ -1,0 +1,42 @@
+﻿@model LightPointTask.Models.Goods
+
+<h3>Вы уверены что хотите удалить этот товар?</h3>
+<div>
+    <h4>Goods</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ShopId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShopId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameGoods)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameGoods)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("На Главную", "Index")
+        </div>
+    }
+</div>

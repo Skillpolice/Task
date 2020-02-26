@@ -1,0 +1,50 @@
+﻿@model Exzam_Denis_R.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Регистрация";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div>
+    <div>
+        @Html.ValidationSummary()
+        <form method="post">
+            <input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" />
+            <div class="form-group">
+                <label for="exampleInputEmail1">Имя</label>
+                <input type="text" class="form-control" id="name" name="name" aria-describedby="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Логин</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" name="Login" placeholder="Login">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">E-mail</label>
+                <input type="email" class="form-control" id="exampleInputPassword1" name="Email" placeholder="Email">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="Password" placeholder="Password">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="PasswordConfirm" placeholder="PasswordConfirm">
+
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Запомнить</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Зарегистрировать</button>
+        </form>
+
+
+    </div>
+</div>
+}
+

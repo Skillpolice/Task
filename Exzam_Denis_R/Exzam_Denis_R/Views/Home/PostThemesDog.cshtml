@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Exzam_Denis_R.Models.Post>
+
+@{
+    ViewBag.Title = "PostThemesDog";
+}
+<div class="row col-md-12" id="comm2">
+    @using (Ajax.BeginForm("PostThemes", new AjaxOptions { UpdateTargetId = "comm2" }))
+    {
+        <div class="jumbotron row col-md-12">
+            <div class="row">
+                <span class="label label-info" style="font-size:large">
+                    Как собаки общаются с нами?
+                </span>
+                <div class="col-md-12">
+                    <p>
+                        Зрительный контакт. Собаки стремятся 24 часа в сутки держать хозяина в поле зрения и как можно чаще ловить его взгляд. Посмотрите на своего питомца. Если выражение его мордочки спокойное, а челюсть расслаблена, почешите его за ухом, он будет безумно этому рад! Кстати, японские исследователи убеждены: между зрительным контактом собаки с хозяином и уровнем гормона привязанности (окситоцином) существует связь. Почаще устанавливайте «теплые» зрительные контакты с питомцем, и ваша дружба будет только крепнуть!
+                        Как собаки общаются с нами?
+                        Собака приносит вам вещи. Нет, не по команде. А спонтанно, по собственному желанию. Например, питомцы часто приносят хозяевам игрушки. Мы расцениваем этот жест как приглашение поиграть, но на самом деле нам дарят подарок. Есть мнение, что так работают отголоски охотничьих инстинктов. Раньше собака приносила хозяину добычу, а теперь приносит то, что, по ее мнению, может его порадовать. И пусть вас не удивляет ее выбор!
+                        Собака горбится и сжимается. Если вы видите, что собака всеми силами пытается казаться меньше своих размеров, вывод один: она очень сильно чего-то боится и ей нужна ваша защита!
+                        Собака опирается на вас. Такое поведение означает две вещи. Во-первых, она вам безоговорочно доверяет. А во-вторых, для нее вы – надежная опора, и рядом с вами она чувствует себя в безопасности. Этот жест многое говорит о том, как собака относится к хозяину.
+
+                    </p>
+                    <hr />
+
+                </div>
+                <table class="table col-md-4">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Имя</th>
+                            <th>Сообщение</th>
+                        </tr>
+                    </thead>
+
+                </table>
+                @foreach (var post in Model)
+                {
+                    <div class="container">
+                        <div class="col-md-4">
+                            <h2>@post.AppUser.UserName</h2>
+                            <p>@post.Time</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="font-size:x-large">@post.Text</p>
+                        </div>
+                        @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Удалить", "Delete", new { id = post.Id }, new { @class = "btn btn-primary btn-large" })
+                        }
+                    </div>
+                }
+
+                    <div class="form-group">
+                        <br />
+                        <label for="comment">Оставьте комментарий:</label>
+                        <textarea class="form-control" name="Text" rows="6" id="comment"></textarea>
+                        <input type="hidden" name="themeId" value="3" />
+                        <input type="submit" value="Добавить" class="btn btn-primary btn-sm" id="comm2" />
+                        <input type="submit" value="Отмена" class="btn btn-primary btn-sm" formaction="/Home/Index/" />
+                    </div>
+            </div>
+        </div>
+    }
+
+</div>

@@ -1,0 +1,20 @@
+﻿
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-2">
+            <p></p>
+        </div>
+        <div class="col-md-8">
+            <br />
+            <p>
+                <label for="comment">Оставте комментарий:</label>
+                <textarea class="form-control" name="Text" rows="6" id="comment"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Добавить" class="btn btn-primary btn-sm" formaction="/Home/AddPost/" />
+                <input type="submit" value="Отмена" class="btn btn-primary btn-sm" formaction="/Home/Index/" />
+            </p>
+        </div>
+    </div>
+}

@@ -1,0 +1,11 @@
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\bin\Debug\Task_4_RemoveDuplicateWords.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\bin\Debug\Task_4_RemoveDuplicateWords.pdb
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.csprojAssemblyReference.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.csproj.CoreCompileInputs.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\Task_4_RemoveDuplicateWords\bin\Debug\Task_4_RemoveDuplicateWords.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\Task_4_RemoveDuplicateWords\bin\Debug\Task_4_RemoveDuplicateWords.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.csproj.CoreCompileInputs.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\Task_4_RemoveDuplicateWords\obj\Debug\Task_4_RemoveDuplicateWords.pdb

@@ -1,0 +1,10 @@
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\bin\Debug\Task_4_RemoveDuplicateWords.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\bin\Debug\Task_4_RemoveDuplicateWords.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_4_RemoveDuplicateWords\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

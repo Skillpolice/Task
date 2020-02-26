@@ -1,0 +1,16 @@
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.csprojResolveAssemblyReference.cache
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.csproj.CoreCompileInputs.cache
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.exe
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.pdb
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.exe
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.csproj.CoreCompileInputs.cache
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy_Collection\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy_Collection\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\bin\Debug\Task_1_Romanovskiy.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy_Collection\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.csproj.CoreCompileInputs.cache
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy_Collection\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_4_Romanovskiy_Collection\Task_1_Romanovskiy\Task_1_Romanovskiy\Task_1_Romanovskiy\obj\Debug\Task_1_Romanovskiy.pdb

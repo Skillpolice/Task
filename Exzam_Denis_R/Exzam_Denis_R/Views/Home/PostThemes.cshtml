@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Exzam_Denis_R.Models.Post>
+
+
+@{
+    ViewBag.Title = "PostThemes";
+}
+<div class="row col-md-12" id="comm1">
+    @using (Ajax.BeginForm("PostThemes", new AjaxOptions { UpdateTargetId = "comm1" }))
+    {
+
+        <div class="jumbotron row col-md-12">
+            <div class="row">
+                <span class="label label-info" style="font-size:large">
+                    Как правильно гладить кошку?
+                </span>
+                <div class="col-md-12" style="text-align:center">
+                    <p>
+                        Группа ученых из Великобритании серьезно задалась этим вопросом. В 2014 году они испытали поглаживания несколько областей кошачьего тела, среди которых были спина, грудь, верх головы и живот — всего восемь наиболее важных регионов.
+                        Каждую из 36 испытуемых кошек подвергли «поглаживанию в направлении роста шерсти в течение 15 секунд с интервалами в 1 секунду для каждой области тела, используя средний и указательный пальцы». Позже эксперимент повторили на двадцати других питомцах, все реакции животных задокументировали.
+                        В итоге все кошки реагировали на поглаживания настолько по-разному, что отчетливой закономерности в их реакциях найти не удалось. Однозначно можно было сказать одно: кошку нельзя гладить у основания хвоста — на это все животные отреагировали явно негативно.
+                        Любопытно, что больше стресса у кошек вызывало поглаживание хозяевами, чем такие же действия от незнакомцев. Ни у каких других животных ученые раньше такого не наблюдали. Авторы работы нашли возможную причину в том, что кошки помнили, как хозяева ругали их, водили к ветеринару и приучали к лотку. Незнакомцы же им ничего плохого не сделали, поэтому вызывали меньше негатива.
+                    </p>
+                    <hr />
+
+                </div>
+                <table class="table col-md-4">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Имя</th>
+                            <th>Сообщение</th>
+                        </tr>
+                    </thead>
+                </table>
+                @foreach (var post in Model)
+                {
+
+                    <div class="container">
+                        <div class="col-md-4">
+                            <h2>@post.AppUser.UserName</h2>
+                            <p>@post.Time</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p style="font-size:x-large">@post.Text</p>
+                        </div>
+                        @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Удалить", "Delete", new { id = post.Id }, new { @class = "btn btn-primary btn-large" })
+
+                        }
+                    </div>
+                }
+
+
+                <div class="form-group">
+                    <br />
+                    <label for="comment">Оставьте комментарий:</label>
+                    <textarea class="form-control" name="Text" rows="6" id="comment"></textarea>
+                    <input type="hidden" name="themeId" value="1" />
+                    <input type="submit" value="Добавить" class="btn btn-primary btn-sm" id="comm1" />
+                    <input type="submit" value="Отмена" class="btn btn-primary btn-sm" formaction="/Home/Index/" />
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

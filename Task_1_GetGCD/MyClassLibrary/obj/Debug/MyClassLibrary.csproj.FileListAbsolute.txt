@@ -1,0 +1,6 @@
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\bin\Debug\MyClassLibrary.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\obj\Debug\MyClassLibrary.csprojAssemblyReference.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\obj\Debug\MyClassLibrary.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

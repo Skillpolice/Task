@@ -1,0 +1,12 @@
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\bin\Debug\Task_3_OrderStringsByLength.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\bin\Debug\Task_3_OrderStringsByLength.pdb
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.csprojAssemblyReference.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.csproj.CoreCompileInputs.cache
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.dll
+C:\Users\nagib\AppData\Local\Temporary Projects\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\bin\Debug\Task_3_OrderStringsByLength.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\bin\Debug\Task_3_OrderStringsByLength.pdb
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.csprojAssemblyReference.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.csproj.CoreCompileInputs.cache
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.dll
+E:\EPAM Treining\Task_1\Task_1_Training_EPAM\Task_1\Task_3_OrderStringsByLength\Task_3_OrderStringsByLength\obj\Debug\Task_3_OrderStringsByLength.pdb

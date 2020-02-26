@@ -1,0 +1,12 @@
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.exe.config
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.exe
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.pdb
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.csproj.CoreCompileInputs.cache
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.exe
+F:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.exe.config
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\bin\Debug\Task_5_Romanovskiy_DataBase.pdb
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.csproj.CoreCompileInputs.cache
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.exe
+E:\Лекции Татьяна Леонидовна С# WF\Внешний тренинг .Net\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\Task_5_Romanovskiy_DataBase\obj\Debug\Task_5_Romanovskiy_DataBase.pdb

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<LightPointTask.Models.Shop>
+
+
+@{
+    ViewBag.Title = "List Shops";
+}
+    <p>
+        @Html.ActionLink("Добавить новый Магазин", "CreateShop")
+    </p>
+<div class="row">
+    <div class="col-sm-6">
+        <table class="table">
+            <tr>
+                <td><p>Name </p></td>
+                <td><p>Addres </p></td>
+                <td><p>Time </p></td>
+                <td><p>List</p></td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><p>@item.Name</p></td>
+                    <td><p>@item.Adress</p></td>
+                    <td><p>@item.TimeWork</p></td>
+                    <td>@Ajax.ActionLink("Список ", "GoodsDetails", new { id = item.Id }, new AjaxOptions { UpdateTargetId = "update" })</td>
+                    @*<td>@Html.ActionLink("List","GoodsDetails",new{ Id = item.Id })</td>*@
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
+@using (Ajax.BeginForm("GoodsDetails", new AjaxOptions { UpdateTargetId = "update" }))
+{
+    <div class="row">
+        <div id="update" class="col-sm-6">
+
+        </div>
+    </div>
+}
